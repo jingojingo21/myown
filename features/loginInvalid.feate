@@ -1,0 +1,19 @@
+
+ Feature: Login Feature
+
+  As a user, I want to login to website
+  so that I can make an appointment.
+
+  @InValid
+Scenario Outline: Login with an invalid credential
+    Given  I navigate to mendley  homepage
+    When  I click sign in link
+    And   I enter an invalid email <email> and password <password>
+    And  I click Log in button 
+	  Then  I should  NOT be able to login successfully
+
+    Examples: 
+      | email| password           |
+      | jingo@yahoo.co.uk | ThisIsNotAPassword |
+      | jingo1@yahoo.co.uk | Test@001 |
+    
