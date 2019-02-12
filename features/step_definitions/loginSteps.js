@@ -9,7 +9,7 @@ const {
     /*Scenario: loginPage*/
 
 Given('I navigate to mendley  homepage', async function () {
-    await this.browser.get("https://www.mendeley.com/");
+    await this.browser.get("https://www.elsa.com/");
 });
 
 
