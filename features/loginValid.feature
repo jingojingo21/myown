@@ -15,5 +15,5 @@ Feature: Login Feature
 
 Examples: 
       | email| password           |
-      | 'pakerla12@yahoo.co.uk' | 'Test@001' |
+      | 'paker@yahoo.co.uk' | 'Test@001' |
   
